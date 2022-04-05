@@ -10,4 +10,5 @@ workflows:
   maven_test:
     jobs:
       - maven/test:
-          executor: java17      
+          executor: java17
+          
